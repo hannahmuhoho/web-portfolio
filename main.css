@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: rgb(196, 224, 224);
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 50px;
+  background-color: rgb(152, 166, 170);
+}
+.nav-link {
+  margin: 0.3em;
+  border: 0.2em rgb(52, 174, 214);
+  padding: 0.2em;
+  font-size: 1.2em;
+  transition: ease-out 1s all;
+}
+.nav-link:hover {
+  background-color: dodgerblue;
+  color: ghostwhite;
+}
